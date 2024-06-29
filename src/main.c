@@ -15,13 +15,13 @@ int main()
 
     printf("hello world !");
     return 0;
-int a , b ;
-printf("la valeur de a ");
-scanf(%d,&a);
-printf("la valeur de b ");
-scanf(%d,&b);
-z = pow(a,b)
-printf("la puissance est:",%z);
+    int a , b ;
+    printf("la valeur de a ");
+    scanf("%d",&a);
+    printf("la valeur de b ");
+    scanf("%d",&b);
+    int z = pow(a,b);
+    printf("la puissance est:%d", z);
 }
 
 
